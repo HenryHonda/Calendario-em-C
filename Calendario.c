@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-int PrimeiraSemanaNoMes(int ano) //Função do Stack Overflow, ainda tentando entender como funciona
-{
+int PrimeiraSemanaNoMes(int ano)
 
     int PrimeiraSemana;
     PrimeiraSemana = (((ano - 1) * 365) + ((ano - 1) / 4) - ((ano - 1) / 100) + ((ano) / 400) + 1) % 7;
